@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Play 3D Movie in VR (w/ three.js)</title>
+<style>
+    body {
+        margin: 0;
+    }
+</style>
+<video src="./bbb_720p30_abl_2k_faststart.mp4" style="display: none;" playsinline loop></video>
+<script src="https://cdn.jsdelivr.net/npm/webxr-polyfill@2.0.3/build/webxr-polyfill.min.js"></script>
+<script>
+    new WebXRPolyfill({
+        cardboardConfig: {
+            BUFFER_SCALE: 1,
+        }
+    })
+</script>
+<script type="module" src="./js/index.js"></script>
+<div id="hide-cardboard"></div>
