@@ -4,5 +4,5 @@
 
 ## Licenses
 
-- `public/*.mp4`: Big Buck Bunny のライセンスである [CC-BY 3.0] (https://creativecommons.org/licenses/by/3.0/)
+- `public/*.mp4`: Big Buck Bunny のライセンスである [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 - その他: MIT License
